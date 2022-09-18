@@ -30,7 +30,7 @@ for x in range(num_eleitores):
         cand_b = cand_b + 1
     elif voto == 'C' or voto == 'c':
         cand_c = cand_c + 1
-    #Erro Caso User Erre o Numero;
+    #Erro Caso User Erre o Candidato;
     else:
         print ('\n Erro No Voto!! \n Voto Anulado!! \n')
     total_v = total_v + 1
