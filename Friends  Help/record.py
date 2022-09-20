@@ -1,20 +1,7 @@
-#Entradas
-input
+#input - 2
+#repetição - 3
 
-#Caracteristicas entradas
-int - INteiros
-float - Reais
-str - Texto
-
-#Saidas
-print ('Opa'(nota2 + nota1) /2) or ("")
-
-
-#Variaveis
-
-nota
-cor
-tipo
-nome_gabriel
-
-cor != Cor
+for x in range (3):
+    numero1 = float(input('Numero 1:'))
+    numero2 = float(input('Numero 2:'))
+    print ('Resultado:',numero1 - numero2)
