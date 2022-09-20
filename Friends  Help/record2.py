@@ -1,14 +1,13 @@
 #input - 4
 #Saida - 1
 
+calc = 0
+for n in range (4):
+    nota = float(input('Digite Sua Nota:'))
+    calc = calc + nota
 
-nota1 = float(input('Insira Nota1:'))
-nota2 = float(input('Insira Nota2:'))
-nota3 = float(input('Insira Nota3:'))
-nota4 = float(input('Insira Nota4:'))
-
-media = ((nota1 + nota2 + nota3 + nota4)/4)
-
+media = calc /4
+print (media)
 if media >= 7:
     print('Aprovado!!')
 elif media >=5 and media <=7:
