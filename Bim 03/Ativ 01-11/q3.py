@@ -1,3 +1,4 @@
+#3ª)   O Departamento Estadual de Meteorologia lhe contratou para desenvolver um programa que leia um conjunto indeterminado de temperaturas, e informe ao final a menor e a maior temperaturas informadas, bem como a média das temperaturas. Para encerrar a leitura o usuário deve digitar 0 (zero).
 temp = 0
 maior = 0
 menor = 0
